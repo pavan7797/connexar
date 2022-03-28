@@ -1,0 +1,15 @@
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background: transparent linear-gradient(291deg, #00182b 0%, #1e384d 100%) 0%
+    0% no-repeat padding-box;
+}
+.heading {
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-family: Poppins medium;
+  font-size: 80px;
+  margin: 0px;
+}

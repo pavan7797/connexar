@@ -1,0 +1,91 @@
+.accRoot {
+  padding-top: 3em;
+  background-color: #f1f1f1;
+}
+
+.barRoot {
+  background: transparent linear-gradient(90deg, #E8721E 0%, #C45302 100%) 0% 0% no-repeat padding-box;
+  width: 100%;
+  height: 143px; 
+}
+
+.barContainer {
+  display: flex;
+  gap: 50px;
+}
+
+.barHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.barHead h1 {
+  font-size: 100px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.barHead h4 {
+  vertical-align: top;
+  font: normal normal 600 29px/43px Poppins;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.barSteps {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.barSteps h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0 15%;
+  color: white;
+}
+
+.horizontal {
+  width: 100px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+.triangle {
+  width: 0; 
+  height: 0; 
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  
+  border-top: 120px solid #F1F1F1;
+  position: relative;
+}
+
+.tposition {
+  margin-top: -18px;
+}
+
+.triangle > p {
+  font-size: 50px;
+  font-weight: bolder;
+  position: absolute;
+  top: -130px;
+  color: #00325A;
+}
+
+.accbanner {
+  display: flex;
+  margin-bottom: 3em;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+}
+
+.accbanner > p {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #656565;
+  text-align: right;
+}

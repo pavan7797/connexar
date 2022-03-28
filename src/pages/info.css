@@ -1,0 +1,114 @@
+.label-text {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 10px;
+}
+
+.sub-heading {
+  font-weight: 700;
+  color: #f0a773;
+}
+
+.span-text {
+  color: #00325a !important;
+  font-weight: 700;
+}
+
+.map_img img {
+  max-width: 100%;
+  max-height: initial;
+}
+
+@media only screen and (max-width: 993px) {
+  .hero_cnt .card {
+    border-radius: 0px;
+    height: 400px;
+  }
+
+  .hero_cnt h2,
+  .trade_inst .h1,
+  .para_grph .h1 {
+    font-size: 5.5vw;
+    padding: 0rem 0rem;
+  }
+
+  .display-4 {
+    font-size: 5.5vw;
+    padding: 2rem 0rem;
+    margin: 3rem 0 0 !important;
+  }
+
+  .scrollableView {
+    flex-wrap: nowrap;
+    overflow: auto;
+  }
+
+  .slick-slide img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .scrollableView > div {
+    min-width: 300px;
+  }
+
+  .our_blogs,
+  .box-tech {
+    padding: 1rem;
+  }
+
+  .box-tech .content {
+    padding: 0rem;
+  }
+
+  .lst_cards {
+    padding: 1rem;
+  }
+
+  .box-tech .content .desc,
+  .box-tech:hover .content .desc {
+    display: block !important;
+    transform: scale(1, 1);
+    text-align: center;
+    font-size: .8rem;
+    line-height: 1rem;
+  }
+
+  .hero_cnt h4,
+  .trade_inst .h3,
+  .box-tech:hover .content p,
+  .box-tech .content p {
+    font-size: 1rem;
+  }
+
+  .desc {
+    font-size: .9rem;
+    line-height: 1.6rem;
+  }
+
+  .accRoot {
+    padding-top: 1rem !important;
+  }
+
+  .intr_desc p {
+    font-size: .9rem;
+  }
+
+  .intr_desc h4 {
+    font-size: 1rem;
+  }
+
+  .resp-w-100 {
+    width: 100% !important;
+  }
+
+  .map_img {
+    overflow: auto;
+  }
+
+  .map_img img {
+    min-width: 560px;
+    max-height: initial;
+  }
+}
